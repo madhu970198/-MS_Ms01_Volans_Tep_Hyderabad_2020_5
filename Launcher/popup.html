@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher</title>
+    <link rel = "stylesheets" href="http://fonts.googleapis.com/css?family=Open+Sans" type = "text/css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <style>
+       html,body{
+           font-family: 'open Sans',sans-serif;
+           font-size: 14px;
+           margin: 0;
+           min-height: 50px;
+           padding: 0;
+           width: 200px;
+           text-align: center;
+           background-color: rgb(172, 226, 193);
+       }
+    
+       h1{
+        font-family: 'Menlo', monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: r#2f5876;
+       }
+      a:link,:visited {
+          color:#000;
+          outline: 0;
+          text-decoration:none;
+       }
+       img{
+           width: 30px;
+       }
+       .modal-header{
+           align-items: conter;
+           border-bottom:0.5px  solid #dadada;
+           height: 50px;
+           width:100%;
+       }
+       .log{
+           padding: 16px;
+
+       }
+       .log.icon{
+           vertical-align: text-bottom;
+           margin-right: 12px;
+
+       }
+       .flex.container{
+           display: flex;
+           justify-content: space-around;
+           padding: 10px 22px;
+
+       }
+       .flex{
+           opacity: 1;
+           transition: opacity 0.2s ease-in-out;
+           width: 120px;
+
+       }
+       .flex:hover{
+           opacity: 0.4;
+       }
+       .flex .fa{
+           font-size:40px;
+           color:#2f5876;
+       }
+   </style>
+</head>
+
+<body>
+
+
+    <div class = "model-header">
+        <h1 class = "logo">
+            <img src = "icon.png" alt="Launcher" class = "logo-icon"> Launcher<span class = "version">(1.0.0)</span>
+        </h1>
+    </div>
+    <div class="model-content">
+        <p>Esily access Launcher</p>
+        <a href = "https://www.rapidtables.com/tools/notepad.html"></a>
+        <a href="javascript:alert('Hello,welocome to Launcher you can access social media apps by just one click');">Click Me!</a>
+
+        
+        
+    </div>
+      
+            <div class = "flex">
+                <a href="http://www.youtube.com/Launcher" target="_blank">
+                 <i class = "fa fa-youtube"></i>
+                </a>
+            </div>
+            <div class = "flex">
+                <a href="http://www.twitter.com/Launcher" target="_blank">
+                 <i class = "fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class = "flex">
+                <a href="http://www.instagram.com/Launcher" target="_blank">
+                 <i class = "fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class = "flex">
+                <a href=" https://web.whatsapp.com//Launcher" target="_blank">
+                 <i class = "fa fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class = "flex">
+                <a href="http://www.facebook.com//Launcher" target="_blank">
+                 <i class = "fa fa-facebook"></i>
+                </a>
+                
+            </div>
+            
+            </div>
+            
+        </div>
+    </div>
+    <script src = "popup.js"></script>
+</body>
+</html>
